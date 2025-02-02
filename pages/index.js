@@ -20,19 +20,19 @@ export default function Home({ blogs, topics }) {
   return (
     <>
       <Head>
-        <title>Code Chronicles 🚀</title>
-        <meta name="title" content="Bits-0f-Kn0wledge 🚀" />
+        <title>FlagForge Writeup 🚀</title>
+        <meta name="title" content="FlagForge - Begineer Frriendly CTF Platform 🚀" />
         <meta
           name="description"
-          content="Tech blogs and articles on various topics related to Software Development"
+          content="Writeup and Walkthrough of Flagforge Challenges"
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://aryanstha.me/" />
-        <meta property="og:title" content="Code Chronicles 🚀" />
+        <meta property="og:url" content="https://flagforge.xyz/" />
+        <meta property="og:title" content="FlagForge 🚀" />
         <meta
           property="og:description"
-          content="Tech blogs and articles on various topics related to Software Development"
+          content="Writeup and Walkthrough of Flagforge Challenges"
         />
         <meta
           property="og:image"
@@ -42,11 +42,11 @@ export default function Home({ blogs, topics }) {
         crossorigin="anonymous"></script>
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://aryanstha.me/" />
-        <meta property="twitter:title" content="Code Chronicles 🚀" />
+        <meta property="twitter:url" content="https://flagforge.xyz/" />
+        <meta property="twitter:title" content="FlagForge 🚀" />
         <meta
           property="twitter:description"
-          content="Tech blogs and articles on various topics related to Software Development"
+          content="Writeup and Walkthrough of Flagforge Challenges"
         />
         <meta
           property="twitter:image"

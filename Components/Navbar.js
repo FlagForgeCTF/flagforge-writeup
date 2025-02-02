@@ -5,19 +5,13 @@ import { BiTerminal } from "react-icons/bi";
 import { HiSun, HiMoon } from "react-icons/hi";
 import { CgUserlane } from "react-icons/cg";
 import { SiCodefactor } from "react-icons/si";
-import { IoMdArrowDropdown } from "react-icons/io"; 
-import { useDispatch } from "react-redux";
+import { IoMdArrowDropdown } from "react-icons/io";  
 
 function Navbar({ topics }) {
   const [isMounted, setIsMounted] = useState(false); 
-  const { theme, setTheme } = useTheme();
-  const [viewAlert] = useState(false);
-  const [alertMessage] = useState("");
-  const dispatch = useDispatch();
-
+  const { theme, setTheme } = useTheme(); 
   useEffect(() => {
-    setIsMounted(true);
-    const user = JSON.parse(localStorage.getItem("user"));
+    setIsMounted(true); 
   }, []);
 
   const toggleTheme = () => {
@@ -29,7 +23,6 @@ function Navbar({ topics }) {
 
   return (
     <>
-      
       <header className="fixed w-full border-t-4 bg-white dark:bg-dark border-indigo-600 dark:border-indigo-900 shadow dark:shadow-2 z-50">
         <div className="container mx-auto px-6 py-5">
           <div className="flex items-center justify-between">
@@ -51,7 +44,7 @@ function Navbar({ topics }) {
                     <SiCodefactor className="text-sm" />
                   </span>
                   <span className="mx-1 font-semibold text-base md:text-base">
-                    Posts
+                    Categories
                   </span>
 
                   <span className="text-xl font-semibold">
