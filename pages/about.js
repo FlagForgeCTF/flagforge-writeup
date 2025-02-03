@@ -18,7 +18,7 @@ function About({ topics }) {
       <Navbar topics={topics} />
       <div className="max-w-2xl pt-20 pb-32 px-6 text-center mx-auto">
         <div className="h-64 w-full justify-center flex">
-          <img src="/flagforge-logo.png" className="h-64" alt="FlagForge Logo" />
+          <img src="/download.png" className="h-64" alt="FlagForge Logo" />
         </div>
         <h2 className="text-3xl font-semibold text-gray-700 py-4 dark:text-gray-200">
           Welcome to {" "}
